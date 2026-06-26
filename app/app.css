@@ -1,15 +1,95 @@
-@import "tailwindcss";
-
-@theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html,
-body {
-  @apply bg-white dark:bg-gray-950;
+a {
+  text-decoration: none;
+  color: #000;
+}
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+svg {
+  fill: transparent;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.desktop__navbar {
+  display: none;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.footer__links {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footer__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* DESKTOP */
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100vh;
+    padding: 0;
+  }
+
+  .header__logo {
+    padding: 20px;
+  }
+
+  .desktop__navbar {
+    display: inline-block;
+    padding: 20px;
+    border-top: 1px solid hsl(0, 0%, 95%);
+  }
+
+  .desktop__link {
+    display: flex;
+    gap: 15px;
+    padding: 10px 0;
+    color: #6d6d6d;
+    font-size: 1rem;
+  }
+
+  .footer {
+    display: none;
   }
 }

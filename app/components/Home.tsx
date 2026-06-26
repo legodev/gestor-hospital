@@ -1,0 +1,52 @@
+export default function Home() {
+  return (
+    <svg
+      data-replit-metadata="artifacts/mockup-sandbox/src/components/mockups/citas-medicas/CitasMedicasMobile.tsx:438:44"
+      data-component-name="svg"
+      viewBox="0 0 24 24"
+      width={20}
+      height={20}
+      fill="currentColor"
+      stroke="currentColor"
+      stroke-width="1.8"
+      className="w-5 h-5"
+    >
+      <rect
+        data-replit-metadata="artifacts/mockup-sandbox/src/components/mockups/citas-medicas/CitasMedicasMobile.tsx:438:141"
+        data-component-name="rect"
+        x="3"
+        y="3"
+        width="7"
+        height="7"
+        rx="1"
+      ></rect>
+      <rect
+        data-replit-metadata="artifacts/mockup-sandbox/src/components/mockups/citas-medicas/CitasMedicasMobile.tsx:438:188"
+        data-component-name="rect"
+        x="14"
+        y="3"
+        width="7"
+        height="7"
+        rx="1"
+      ></rect>
+      <rect
+        data-replit-metadata="artifacts/mockup-sandbox/src/components/mockups/citas-medicas/CitasMedicasMobile.tsx:438:236"
+        data-component-name="rect"
+        x="14"
+        y="14"
+        width="7"
+        height="7"
+        rx="1"
+      ></rect>
+      <rect
+        data-replit-metadata="artifacts/mockup-sandbox/src/components/mockups/citas-medicas/CitasMedicasMobile.tsx:438:285"
+        data-component-name="rect"
+        x="3"
+        y="14"
+        width="7"
+        height="7"
+        rx="1"
+      ></rect>
+    </svg>
+  )
+}

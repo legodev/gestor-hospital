@@ -1,0 +1,39 @@
+.appointments__card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #f8fafc;
+  list-style: none;
+  line-height: 1.4;
+}
+
+.appointments__date {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.appointments__icon {
+  height: 50px;
+}
+
+.appointments__patient {
+  padding-bottom: 5px;
+  font-weight: 800;
+}
+
+.appointments__state {
+  padding: 5px;
+  border-radius: 9999px;
+  background-color: rgb(220, 252, 231);
+  border: 1px solid rgb(187, 247, 208);
+  color: rgb(22, 163, 74);
+  font-weight: 500;
+}
+
+.appointments__specialist,
+.appointments__place {
+  color: rgb(99, 99, 99);
+  font-size: 0.9rem;
+}
