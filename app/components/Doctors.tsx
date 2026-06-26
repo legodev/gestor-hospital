@@ -8,7 +8,7 @@ export default function Doctor() {
       height={20}
       fill="currentColor"
       stroke="currentColor"
-      stroke-width="1.8"
+      strokeWidth="1.8"
       className="w-5 h-5"
     >
       <circle
